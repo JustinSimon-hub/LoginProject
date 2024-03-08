@@ -1,0 +1,76 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: lightsteelblue;
+
+}
+
+form{
+    background:grey;
+    width:350px;
+    height: 580px;
+   padding:75px 50px;
+   position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 45px;
+    color: white;
+    font-size: 25px;
+}
+
+.textBox{
+    border-bottom: 2px solid white;
+    position:relative;
+    margin:35px 0; 
+}
+
+.textBox input{
+background: none;
+border: none;
+outline: none;
+width: 100%;
+color:white;
+height: 30px;
+font-size: 20px;
+}
+
+
+.loginBtn{
+    height: 45px;
+    width: 100%;
+    border:none;
+    outline: none;
+    background:lightsteelblue;
+    background-size: 200%;
+    transition: 0.5s;
+    color:white;
+    font-size: 15px;
+}
+
+.loginBtn:hover{
+    background-position: right;
+    font-size: 30px;
+}
+
+.signup{
+    color:white;
+    margin-top: 45px;
+    text-align: center;
+
+}
+
+.signup a{
+    color:black;
+    
+}
